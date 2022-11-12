@@ -22,7 +22,6 @@
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
-    margin-left: 20px;
 }
 
 .hero .main {
@@ -55,20 +54,25 @@
     /* flex-direction: column */
 }
 
+.flex-item {
+    flex: 1;
+}
+
 .center {
     padding: 0 10% 0 10%;
-}
-
-.right {
-    margin-left: auto;
-}
-
-.left {
-    margin-right: auto;
 }
 
 .header {
     padding-top: 20px;
     padding-bottom: 20px;
     align-items: center;
+}
+
+.link {
+    margin-left: 10px;
+}
+
+.header-right {
+    flex-grow: 4;
+    text-align: right;
 }
