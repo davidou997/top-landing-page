@@ -90,19 +90,18 @@
     padding-bottom: 100px;
 }
 
-.placeholder {
+.hero .placeholder {
     background-color: #6D747D;
     flex: 1;
 }
 
-.hero-right {
+.hero .hero-right {
     align-items: center;
-    justify-content: center;
-    flex: 1;
+    text-align: center;
     background-color: #6D747D;
 }
 
-.hero-left {
+.hero .hero-left {
     padding-right: 50px;
 }
 
