@@ -86,8 +86,8 @@
 }
 
 .hero {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 125px;
+    padding-bottom: 125px;
 }
 
 .hero .placeholder {
@@ -105,6 +105,11 @@
     padding-right: 50px;
 }
 
-.hero .main, .hero .secondary{
+.hero .main, .hero .secondary {
     margin-bottom: 10px;
+}
+
+.info {
+    text-align: center;
+    flex-direction: column;
 }
