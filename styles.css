@@ -166,7 +166,8 @@
     padding: 50px 100px 50px 100px;
     border-radius: 10px;
     border: 1px #3882F6 solid;
-    width: 800px;
+    max-width: 700px;
+    width: 100%;
     color: white;
     align-items: center;
 }
