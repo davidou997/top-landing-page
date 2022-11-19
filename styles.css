@@ -18,7 +18,8 @@
 }
 
 .hero .secondary,
-.header .link {
+.header .link,
+.action .secondary {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -37,8 +38,9 @@
 
 .info-header {
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900;
     color: #1F2937;
+    padding-bottom: 40px;
 }
 
 .quote {
@@ -47,11 +49,12 @@
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    flex-direction: column;
+    align-items: center;
 }
 
 .flex-container {
     display: flex;
-    /* flex-direction: column */
 }
 
 .flex-item {
@@ -112,4 +115,81 @@
 .info {
     text-align: center;
     flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    align-items: center;
+}
+
+.caption {
+    color: #4B5563;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.pic {
+    border: 5px #3E84F6 solid;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.info-pics {
+    gap: 40px;
+    max-width: 800px;
+}
+
+.info-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    width: 825px;
+}
+
+.author {
+    width: 100%;
+    text-align: right;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.call-action {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+    border: 1px #3882F6 solid;
+    width: 800px;
+    color: white;
+    align-items: center;
+}
+
+.action .secondary {
+    border: 2px white solid;
+    border-radius: 5px;
+    height: 32px;
+    padding: 5px 30px 5px 30px;
+    margin-top: 5px;
+}
+
+.action {
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-left {
+    flex-grow: 3;
+}
+
+.action-bold {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 5px;
 }
